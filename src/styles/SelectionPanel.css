@@ -5,7 +5,7 @@
     height: 100vh;
 }
 .form{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 370px;
     height: 326px;
     top: 85px;
@@ -27,13 +27,11 @@
 
 .options{
     overflow-y: scroll;
-    background-color: azure;
     width: 370px;
-height: 164px;
-
-
+    height: 164px;
 
 }
 .options::-webkit-scrollbar {
     display: none;
   }
+

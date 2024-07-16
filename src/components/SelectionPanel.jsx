@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { CheckboxItem } from './CheckboxItem';
 import Button from './Button';
 import '../styles/SelectionPanel.css'
+import HorizontalLine from './HorizontalLine';
 
 const SelectionPanel = () => {
     const [selectedPages, setSelectedPages] = useState([]);
@@ -45,9 +46,8 @@ const SelectionPanel = () => {
           checked={selectedPages.length === pageOptions.length}
           onChange={handleAllPagesSelect}
         />
-        
-        <hr/>
-        <div className='options' style={{background:"blue"}}>
+        <HorizontalLine/>
+        <div className='options' >
         {pageOptions.map((option) => (
           <CheckboxItem
             key={option.id}
@@ -58,7 +58,7 @@ const SelectionPanel = () => {
           />
         ))}
         </div>
-        <hr/>
+        <HorizontalLine/>
         <Button label="Click"/>
     </div>
     </div>

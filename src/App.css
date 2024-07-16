@@ -16,6 +16,12 @@
   align-items: center; */
   width: 100vw;
   height: 100vh;
-  background-color: aquamarine;
   overflow-x: hidden;
+}
+
+.horizontal-line{
+  width: 340px;
+  height: 0.7px;
+  background: #CDCDCD;
+  margin: 10px auto 10px auto;
 }

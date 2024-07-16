@@ -3,7 +3,7 @@ import "../styles/button.css"
 
 const Button = ({label}) => {
   return (
-    <button className='click-button'>Click</button>
+    <button className='done-button'>Done</button>
   )
 }
 
