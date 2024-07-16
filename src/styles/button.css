@@ -1,0 +1,14 @@
+
+.click-button{
+    width: 340px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    background: #FFCE22;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    border-style: none;
+
+}
