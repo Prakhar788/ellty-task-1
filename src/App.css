@@ -1,30 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  font-family: Montserrat;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   font-family: Montserrat;
 }
 
-.App {
+.App{
+  font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
   line-height: 18.2px;
-
+  /* display: flex;
+  justify-items: center;
+  align-items: center; */
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
 }
 
-.horizontal-line {
-  max-width: 340px;
-  width: 100%;
-  margin: 0px auto 0px auto;
-  padding: 10px, 15px, 10px, 15px;
-}
-.hr{
-  /* max-width: 340px;
-  width: 100%; */
-  border: 0.7px;
-  background-color: #CDCDCD;
-  height: .7px;
+.horizontal-line{
+  width: 340px;
+  height: 0.7px;
+  background: #CDCDCD;
+  margin: 10px auto 10px auto;
 }
